@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Raw data
+raw_data_vk/*
+
+# Processed data
+processed_data_csv/*
+
+# Keyence csv files
+keyence_csv/*
+
+# Images
+images/*
+
+# Keep folder structure
+!raw_data_vk/.gitkeep
+!processed_data_csv/.gitkeep
+!keyence_csv/.gitkeep
+!images/.gitkeep
+
+# Allow example files
+!processed_data_csv/example_*.csv
